@@ -39,9 +39,8 @@
 	}
 	/** header **/
 	.absolute_box {
-		width: 40%;
-		height: 38%;
-		padding-bottom: 0;
+		position: static;
+		width: 98%;
 	}
 	.absolute_box h1 {
 		font-size: 27px;
@@ -61,10 +60,14 @@
 	.load {
 		font-size: 26px;
 	}
+	/* contacts page */
+	.forms_wrapper{
+		margin: 70px auto;
+	}
 }
 @media (max-width: 480px) {
 	.container {
-		width: 100%;
+		width: 95%;
 	}
 	/* header */
 	.navigation {
@@ -109,6 +112,35 @@
 		display: none;
 	}
 	.h {
-		font-size: 27px;
+		font-size: 24px;
+	}
+	.social{
+	height: 30px;
+	width: 30px;
+	}
+	.social:first-child {
+		margin-right: 25px;
+	}
+	.soc_i{
+	font-size: 25px;
+	}
+	/* contact page */ 
+	.forms_wrapper{
+		margin: 70px auto;
+	}
+	.label {
+		font-size: 20px;
+	}
+	input::placeholder{
+	font-size: 18px;
+	}
+	.button_contact{
+		font-size: 18px;
+		padding: 8px 25px;
+	}
+}
+@media (max-width: 380px){
+	.h{
+		display: none;
 	}
 }
